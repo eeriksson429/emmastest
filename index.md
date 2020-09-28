@@ -1,20 +1,3 @@
----
-layout: default
-title: Home
-nav_order: 1
-description: "A secure, scalable and upgradable customization tool for M3 in cloud"
-permalink: /
----
-
-# Focus on writing good extensions
-{: .fs-9 }
-
-A secure, scalable and upgradable customization tool for M3 in cloud
-{: .fs-6 .fw-300 }
-
-[Get started now]({{ site.baseurl }}{% link docs/getting-started/getting-started.md %}){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Get the SDK](https://github.com/infor-cloud/xtendm3-sdk-java){: .btn .fs-5 .mb-4 .mb-md-0 }
-
----
 
 ## The What and The Why
 XtendM3 is an extensibility tool targeted for modifying and extending M3 Business in M3 Cloud Edition. For M3 there are 
