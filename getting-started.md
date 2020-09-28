@@ -1,10 +1,10 @@
 ---
-title: Test
+title: Getting Started
 has_children: true
 nav_order: 2
 ---
 
-# Another page
+# Getting Started
 
 Test this
 
