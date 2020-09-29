@@ -16,9 +16,12 @@ Infor Homepages Widget SDK is used to develop widgets for Infor Homepages, and p
 
 ---
 
-## About
+## About Homepages Widget SDK
 
-The Homepages Widget SDK is used to develop widgets for Infor Ming.le Homepages, and provides APIs for interacting with the Homepages Widget framework. The Framework API lets you communicate with the Widget framework, and the ION API support enables communication with other Infor applications. The SDK includes multiple sample widgets to explore and learn from.
+The Homepages Widget SDK is used to develop widgets for Infor Homepages, and provides APIs for interacting with the Homepages Widget framework. The Framework API lets you communicate with the Widget framework, and the ION API support enables communication with other Infor applications. The SDK includes multiple sample widgets to explore and learn from.
+
+---
+
 
 
 
