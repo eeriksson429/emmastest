@@ -133,4 +133,5 @@ Widgets have to be bundled (if consisting of multiple .ts files) and minified be
 node homepages pack "infor.sample.helloworld"
 ```
 
-
+## Read more
+[Link to another page](widget-framework)
