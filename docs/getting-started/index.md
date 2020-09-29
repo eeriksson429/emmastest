@@ -6,7 +6,13 @@ nav_order: 2
 
 # Getting Started
 
+This section briefly describes how to quick start your widget development using the Homepages Widget SDK. Detailed instructions can be found in the [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf)
+
+## Prerequisites
+
 The Widget SDK is aimed at web developers who have knowledge about JavaScript, HTML and CSS. We recommend inline widgets to be built using TypeScript + Angular (2.x), as these techniques are used for the Homepages framework and application.
+
+## What's Included
 
 The Widget SDK zip file includes documentation (Developer's Guide and a Framework API reference), source code, Widget samples project and a simple NodeJS server to run the samples on if not using the included Visual Studio solution.
 The latest Widget SDK deliverable can be found here.
@@ -18,7 +24,7 @@ Tenant widgets can oly be used in the cloud edition of Homepages. There are some
 
 The sample “tenant.sample.angular.helloworld” is an example of a tenant widget.
 
-## Prerequisites
+## Dependencies
 To use all parts of the Homepages Widget SDK you will need Node.js, a TypeScript compiler and an Integrated development environment (IDE) or a Text Editor. Some of the possible alternatives are listed below.
 
 <b> Node.js </b> 
