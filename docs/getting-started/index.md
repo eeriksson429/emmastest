@@ -15,7 +15,7 @@ The Widget SDK is aimed at web developers who have knowledge about JavaScript, H
 ## What's Included
 
 The Widget SDK zip file includes documentation (Developer's Guide and a Framework API reference), source code, Widget samples project and a simple NodeJS server to run the samples on if not using the included Visual Studio solution.
-The latest Widget SDK deliverable can be found here.
+The latest Widget SDK deliverable can be found [here](https://github.com/infor-cloud/homepages-widget-sdk).
 
 ## Tenant widgets
 Tenant widgets are widgets developed by partners or customers for the cloud edition of Homepages. These pages describes the process for developing and "running" a tenant widget.
