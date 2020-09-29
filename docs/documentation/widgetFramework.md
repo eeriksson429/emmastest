@@ -1,6 +1,6 @@
 ---
 title: Widget Framework
-parent: Getting Started
+parent: Documentation
 nav_order: 2
 ---
 
