@@ -14,7 +14,6 @@ $body-font-family: 'Source Sans Pro Regular', system-ui, -apple-system, BlinkMac
 $azure-04: #55A3F3;
 $azure-06: #0072ED;
 $azure-07: #0066D4;
-$azure-09: #004A99;
 
 .bg-azure-06 {
     background-color: $azure-06 !important;
@@ -22,8 +21,8 @@ $azure-09: #004A99;
 }
 
 .bg-azure-06:hover {
-    background-color: $azure-06 !important;
-    background-image: linear-gradient($azure-07, $azure-09) !important;
+    background-color: $azure-07 !important;
+    background-image: linear-gradient($azure-06, $azure-07) !important;
 }
 
 /* Hyperlinks */
