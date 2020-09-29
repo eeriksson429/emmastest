@@ -1,5 +1,5 @@
 ---
-title: Widget Framework2
+title: Widget Framework
 parent: Getting Started
 nav_order: 2
 ---
