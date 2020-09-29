@@ -1,5 +1,5 @@
 
-/* Fonts */
+/* FONTS */
 
 @font-face {
     font-family: 'Source Sans Pro Regular';
@@ -14,12 +14,14 @@
 $body-font-family: 'Source Sans Pro Light', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
   Roboto, 'Helvetica Neue', Arial, sans-serif;
 
-/* Colors */
+/* COLORS */
 
 $azure-04: #55A3F3;
 $azure-06: #0072ED;
 $azure-05: #1C86EF;
 $azure-07: #0066D4;
+
+$sidebar-nav-hover: #e1f3fe;
 
 .bg-azure-06 {
     background-color: $azure-06 !important;
@@ -31,11 +33,11 @@ $azure-07: #0066D4;
     background-image: linear-gradient($azure-05, $azure-07) !important;
 }
 
-/* Hyperlinks */
+/* HYPERLINKS */
 
 $link-color: $azure-06;
 
-/* Buttons */
+/* BUTTONS */
 
 .btn {
     border-radius: 2px !important;
@@ -46,10 +48,17 @@ $link-color: $azure-06;
     transition: all 300ms ease-out;
 }
 
-/* Sidebar Navigation */
+/* SIDEBAR NAV /
 
+// Increase padding and font size 
 .nav-list .nav-list-item .nav-list-link {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     font-size: 1.1em;
+}
+
+// Change hover color
+.nav-list .nav-list-item .nav-list-link:hover, .nav-list .nav-list-item .nav-list-link.active {
+    background-image: none;
+    background-color: $sidebar-nav-hover;
 }
