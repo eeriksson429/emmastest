@@ -120,4 +120,4 @@ node homepages pack "infor.sample.helloworld"
 ```
 
 ## Read more
-To continue, please go to
+For further reading, see [Documentation](docs/documentation) or [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf).
