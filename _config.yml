@@ -5,3 +5,8 @@ search_enabled: true
 
 # Set a path/url to a logo that will be displayed instead of the title
 logo: "/assets/images/infor-logo.jpg"
+
+# Aux links for the upper right navigation
+aux_links:
+  "Homepages Widget SDK on GitHub":
+    - "//github.com/infor-cloud/homepages-widget-sdk"
