@@ -1,7 +1,7 @@
 ---
 title: Packaging and Deployment
-has_children: false
-nav_order: 4
+parent: Documentation
+nav_order: 3
 ---
 
 # Packaging and Deployment
