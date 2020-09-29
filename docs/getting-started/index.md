@@ -19,3 +19,11 @@ To use all parts of the Homepages Widget SDK you will need [Node.js](https://nod
 
 This section briefly describes how to quick start your widget development using the Homepages Widget SDK. Detailed instructions can be found in the [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf).
 
+## Node.js dependencies
+If you want to use any of the following parts of the SDK you need to install the Node.js dependencies. If you don't plan to use any of these you can just skip this step.
+
+* Angular - Angular source code and typings matching the version used for Homepages.
+* Web server - A simple development web server.
+* ION API Proxy - A developmemt proxy for widgets that use the Infor ION API.
+* Homepages script - Minify and pack widget into a production zip.
+
