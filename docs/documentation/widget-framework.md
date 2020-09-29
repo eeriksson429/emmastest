@@ -11,10 +11,6 @@ A widget can be defined as a small, single-purpose application that provides qui
 
 Homepages may contain one or many pages and each page may contain one or many widgets. Widgets can be added to a page from the Widget Catalog.
 
-## About Widget Framework
-
-The widget framework is responsible for the creation, layout and lifecycle management of all widgets. It owns parts of what an end user would consider to be the widget, including the widget border, widget title bar and widget menu. A widget implementation is not allowed to directly access these parts of the widget. It owns the widget body area, which is the area inside the widget border and below the widget title bar.
-
 ## Widget Types
 
 There are three types of widgets; inline, external and inline hybrid.
