@@ -18,6 +18,7 @@ $body-font-family: 'Source Sans Pro Light', system-ui, -apple-system, BlinkMacSy
 
 $azure-04: #55A3F3;
 $azure-06: #0072ED;
+$azure-05: #1C86EF;
 $azure-07: #0066D4;
 
 .bg-azure-06 {
@@ -27,7 +28,7 @@ $azure-07: #0066D4;
 
 .bg-azure-06:hover {
     background-color: $azure-07 !important;
-    background-image: linear-gradient($azure-06, $azure-07) !important;
+    background-image: linear-gradient($azure-05, $azure-07) !important;
 }
 
 /* Hyperlinks */
@@ -39,4 +40,8 @@ $link-color: $azure-06;
 .btn {
     border-radius: 2px !important;
     padding: 6px 30px !important;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
 }
