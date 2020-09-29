@@ -8,7 +8,7 @@ nav_order: 2
 
 This section briefly describes how to quick start your widget development using the Homepages Widget SDK. Detailed instructions can be found in the [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf).
 
-## Prerequisites
+## For who?
 
 The Widget SDK is aimed at web developers who have knowledge about JavaScript, HTML and CSS. We recommend inline widgets to be built using TypeScript + Angular (2.x), as these techniques are used for the Homepages framework and application.
 
