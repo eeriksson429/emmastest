@@ -1,6 +1,8 @@
 
 /* FONTS */
 
+/* Font Import */
+
 @font-face {
     font-family: 'Source Sans Pro Regular';
     src: url('../../assets/fonts/SourceSansPro-Regular.ttf') format('truetype');
@@ -11,8 +13,26 @@
     src: url('../../assets/fonts/SourceSansPro-Light.ttf') format('truetype');
 }
 
+/* Font Variables */
+
 $body-font-family: 'Source Sans Pro Regular', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
   Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+$font-regular: 'Source Sans Pro Regular', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+$font-light: 'Source Sans Pro Light', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+/* Font Classes */ 
+
+.font-regular {
+    font-family: $font-regular !important;
+}
+
+.font-light {
+    font-family: $font-light !important;
+}
 
 /* COLORS */
 
