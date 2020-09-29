@@ -6,7 +6,7 @@ description: "Just the Docs is a responsive Jekyll theme with built-in search th
 permalink: /
 ---
 
-# Infor Homepages Widget SDK
+# Homepages Widget SDK
 {: .fs-9 }
 
 Infor Homepages Widget SDK is used to develop widgets for Infor Homepages, and provides APIs for interacting with the Homepages Widget framework.
