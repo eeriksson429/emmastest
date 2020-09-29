@@ -134,6 +134,7 @@ node homepages pack "infor.sample.helloworld"
 ```
 
 ## Read more
-To continue, please see
+To continue, please go to
+<br>
 [Widget Framework]({{ site.baseurl }}{% link docs/documentation/widget-framework.md %}#typography){: .btn .btn-outline }
 
