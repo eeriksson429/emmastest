@@ -21,7 +21,7 @@ There are three types of widgets; inline, external and inline hybrid.
 | ------------- | ------------- |
 | Inline (recommended) | Widget content is loaded in an element that is part of the Homepage DOM. |
 | External | Widget content is loaded in an IFrame with a URL  |
-| Inline hybrid | The widget creates an IFrame to load some of its content.  |
+| Inline hybrid | The widget creates an IFrame to load some of its content. |
 
 
 ## Widget Components
