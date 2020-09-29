@@ -25,7 +25,7 @@ Tenant widgets can oly be used in the cloud edition of Homepages. There are some
 The sample “tenant.sample.angular.helloworld” is an example of a tenant widget.
 
 ## Dependencies
-To use all parts of the Homepages Widget SDK you will need [Node.js](https://nodejs.org/en/), a [TypeScript compiler](http://www.typescriptlang.org/) and an Integrated development environment (IDE) or a [Text Editor](https://code.visualstudio.com/). 
+To use all parts of the Homepages Widget SDK you will need [Node.js](https://nodejs.org/en/), a [TypeScript compiler](http://www.typescriptlang.org/) and an [Integrated development environment (IDE) or a Text Editor](https://code.visualstudio.com/). 
 
 
 ## Node.js dependencies
