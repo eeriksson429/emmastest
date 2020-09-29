@@ -9,7 +9,7 @@ nav_order: 5
 ## Dependencies
 * [TypeScript](https://design.infor.com/)
 * [Angular](https://angular.io/)
-* [Node.js)](http://nodejs.org/)
+* [Node.js](http://nodejs.org/)
 
 ## User Interface
 * [Infor Design System (IDS)](https://design.infor.com/)
