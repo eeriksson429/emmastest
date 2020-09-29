@@ -79,10 +79,11 @@ h1, p {
     padding-top: 0.5em !important;
     padding-bottom: 0.5em !important;
     font-size: 1.1em !important;
+    background-image: none !important;
 }
 
 // Change hover color
 .nav-list .nav-list-item .nav-list-link:hover, .nav-list .nav-list-item .nav-list-link.active {
-    background-image: none;
-    background-color: $sidebar-nav-hover;
+    background-image: none !important;
+    background-color: $sidebar-nav-hover !important; 
 }
