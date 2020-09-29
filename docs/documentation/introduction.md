@@ -4,7 +4,7 @@ parent: Documentation
 nav_order: 2
 ---
 
-# Introdcution
+# Introduction
 
 ## What is a widget?
 A widget can be defined as a small, single-purpose application that provides quick, at-a-glance information or quick access to simple interactive functions. Widgets are simpler and faster to access than full applications (apps) that may provide more functionality.
