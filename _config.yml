@@ -6,7 +6,7 @@ color_scheme: 'light-theme'
 search_enabled: true
 
 # Set a path/url to a logo that will be displayed instead of the title
-logo: "/assets/images/infor-logo.png"
+logo: "/assets/images/infor-logo-1500px.png"
 
 # Aux links for the upper right navigation
 aux_links:
