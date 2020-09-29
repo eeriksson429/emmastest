@@ -39,9 +39,20 @@ Run the Install.cmd command file in the Samples directory to install the Node.js
 ```
 Install.cmd
 ```
-
 ## Widget sample code
 To get an overview of the widget sample code you can open it in your development environment.
 
 ### Visual Studio Code
 Start Visual Studio Code and use File > Open Folder and navigate to Samples/Widgets.
+
+## Web server
+The SDK includes a Node.js development web server that be used for viewing sample widgets and developing widgets. The web server is optional if you have another alternative such as the web server in Visual Studio. The web server will run on http://localhost:8080 by default and serve files from the "./Widgets" directory.
+
+### Start web server in Visual Studio Code
+Start the web server in Visual Studio Code by running the build task "Start Server" (ctrl+shift+b).
+
+### Start web server with Windows command file
+Use the StartServer.cmd command file to start the web server. Edit the command file to change the default port and path.
+```
+StartServer.cmd
+```
