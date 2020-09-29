@@ -81,10 +81,18 @@ h1, p {
     padding-bottom: 0.5em !important;
     font-size: 1.1em !important;
     background-image: none !important;
+    color: #252429;
 }
 
 // Change hover color
 .nav-list .nav-list-item .nav-list-link:hover, .nav-list .nav-list-item .nav-list-link.active {
     background-image: none !important;
     background-color: $sidebar-nav-hover !important; 
+}
+
+.nav-list-link .active {
+    background-image: none !important;
+    background-color: none !important;
+    border-left: 1px solid #0075e9 !important;
+    color: $azure-06;
 }
