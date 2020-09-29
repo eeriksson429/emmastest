@@ -6,7 +6,7 @@ nav_order: 2
 
 # Getting Started
 
-This section briefly describes how to quick start your widget development using the Homepages Widget SDK. Detailed instructions can be found in the [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf)
+This section briefly describes how to quick start your widget development using the Homepages Widget SDK. Detailed instructions can be found in the [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf).
 
 ## Prerequisites
 
