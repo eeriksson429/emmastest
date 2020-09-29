@@ -1,5 +1,5 @@
 ---
-title: What is a widget?
+title: What is a widget
 parent: Documentation
 nav_order: 2
 ---
