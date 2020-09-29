@@ -1,5 +1,15 @@
 
-/* IDS Colors */
+/* Fonts */
+
+@font-face {
+    font-family: 'Source Sans Pro Regular';
+    src: url('../../assets/fonts/SourceSansPro-Regular.ttf') format('truetype');
+}
+
+$body-font-family: 'Source Sans Pro Regular', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+  Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+/* Colors */
 
 $azure-04: #55A3F3;
 $azure-06: #0072ED;
