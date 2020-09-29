@@ -1,7 +1,7 @@
 title: asdasdasdas
 description: Homepages Widget SDK
 remote_theme: pmarsceill/just-the-docs
-color_scheme: 'light-theme'
+color_scheme: light-theme
 
 # Set a path/url to a logo that will be displayed instead of the title
 logo: "/assets/images/infor-logo-1500px.png"
