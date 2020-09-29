@@ -6,7 +6,7 @@ $azure-06: #0072ED;
 
 .bg-azure-06 {
     background-color: $azure-06 !important;
-    background-image: linear-gradient($azure-05, $azure-06)
+    background-image: linear-gradient($azure-05, $azure-06) !important;
 }
 
 /* Hyperlinks */
