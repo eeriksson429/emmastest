@@ -2,9 +2,6 @@ title: "Homepages Widget SDK"
 remote_theme: pmarsceill/just-the-docs
 color_scheme: 'light-theme'
 
-# Enable search
-search_enabled: true
-
 # Set a path/url to a logo that will be displayed instead of the title
 logo: "/assets/images/infor-logo-1500px.png"
 
@@ -12,3 +9,10 @@ logo: "/assets/images/infor-logo-1500px.png"
 aux_links:
   "Homepages Widget SDK on GitHub":
     - "//github.com/infor-cloud/homepages-widget-sdk"
+
+# Enable search
+search_enabled: true
+
+# Enable or disable the search button that appears in the bottom right corner of every page
+# Supports true or false (default)
+search.button: true
