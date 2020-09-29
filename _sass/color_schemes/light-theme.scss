@@ -66,6 +66,12 @@ $link-color: $azure-06;
     transition: all 300ms ease-out;
 }
 
+/* HEADINGS */
+
+h1 {
+    font-family: $font-light !important;
+}
+
 /* SIDEBAR NAV */
 
 // Increase padding and font size 
