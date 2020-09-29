@@ -45,3 +45,11 @@ $link-color: $azure-06;
     -o-transition: all 300ms ease-out;
     transition: all 300ms ease-out;
 }
+
+/* Sidebar Navigation */
+
+.nav-list .nav-list-item .nav-list-link {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 1.1em;
+}
