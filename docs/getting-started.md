@@ -6,9 +6,11 @@ nav_order: 2
 
 # Getting Started
 
-## The Who and What
+## The Who and the What
 
-The Widget SDK is used to build widgets for [Infor Homepages](https://www.youtube.com/watch?v=PP7f6T442JY). The SDK is aimed at web developers who have knowledge about:
+The Widget SDK is used to build widgets for [Infor Homepages](https://www.youtube.com/watch?v=PP7f6T442JY). 
+
+The SDK is aimed at web developers who have knowledge about:
 * [JavaScript](https://www.javascript.com/)
 * [HTML](https://www.w3schools.com/html/)
 * [CSS](https://www.w3schools.com/css/default.asp)
@@ -21,14 +23,14 @@ A widget can be defined as a small, single-purpose application that provides qui
 Homepages may contain one or many pages and each page may contain one or many widgets. Widgets can be added to a page from the Widget Catalog.
 
 ### Tenant Widgets
-A tenant widget is a widget developed by a partner or customer of Infor. Tenant widgets can be uploaded and installed in an cloud environment via the Homepages Administration Tool. For more information on Tenant Widgets, please see the [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf).
+A tenant widget is a widget developed by a partner or customer of Infor. Tenant widgets can be uploaded and installed in an cloud environment via the Homepages Administration Tool. 
 
 ## Download the Widget SDK
 The latest Widget SDK deliverable can be found on the [Homepages Widget SDK GitHub page](https://github.com/infor-cloud/homepages-widget-sdk).
 
 ### What's Included
 
-The Widget SDK zip file includes documentation (Developer's Guide and a Framework API reference), source code, Widget samples project and a simple NodeJS server to run the samples on if not using the included Visual Studio solution. The latest Widget SDK deliverable can be found [here](https://github.com/infor-cloud/homepages-widget-sdk).
+The Widget SDK zip file includes documentation (Developer's Guide and a Framework API reference), source code, Widget samples project and a simple NodeJS server to run the samples on if not using the included Visual Studio solution.
 
 ### Dependencies
 To use all parts of the Homepages Widget SDK you will need [Node.js](https://nodejs.org/en/), a [TypeScript compiler](http://www.typescriptlang.org/) and an [Integrated development environment or a Text Editor](https://code.visualstudio.com/). 
