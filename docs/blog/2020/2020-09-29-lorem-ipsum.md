@@ -1,7 +1,7 @@
 ---
 title: This is a blog post!
-parent: 2020
-grand_parent: blog
+parent: September 2020
+grand_parent: Blog
 nav_order: 3
 ---
 
