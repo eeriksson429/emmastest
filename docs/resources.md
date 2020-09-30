@@ -6,9 +6,9 @@ nav_order: 4
 
 # Resources
 
-## New to Web Development? Start here!
+## New to Web Development?
 
-## Tutorials
+### Web Development Tutorials
 * [JavaScript](https://www.javascript.com/)
 * [HTML](https://www.w3schools.com/html/)
 * [CSS](https://www.w3schools.com/css/default.asp)
@@ -16,10 +16,10 @@ nav_order: 4
 * [Angular](https://angular.io/)
 * [jQuery](https://www.w3schools.com/jquery/)
 
-## Editors
+### Editors
 * [Visual Studio Code (free)](https://code.visualstudio.com/)
 
-## Getting Started with the Homepages Widget SDK
+## Getting Started
 
 ### Download the Widget SDK
 * [Homepages Widget SDK on GitHub](https://github.com/infor-cloud/homepages-widget-sdk/)
