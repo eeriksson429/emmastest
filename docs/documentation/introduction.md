@@ -13,21 +13,11 @@ A widget can be defined as a small, single-purpose application that provides qui
 
 Homepages may contain one or many pages and each page may contain one or many widgets. Widgets can be added to a page from the Widget Catalog.
 
-## Widget Types
+### Banner Widgets 
+A banner widget is a special widget that is added to the banner container. The banner container is located at the top of the page directly below the page header, and always spans the first row. 
 
-There are three types of widgets; inline, external and inline hybrid.
+### Mobile Widgets
+A Mobile widget is a widget that is built for the Infor Go mobile application for Android and IOS. When running on a mobile device the widget can access native device features like GPS information and camera.
 
-| Widget Type | Description |
-| ------------- | ------------- |
-| Inline (recommended) | Widget content is loaded in an element that is part of the Homepage DOM. |
-| External | Widget content is loaded in an IFrame with a URL  |
-| Inline hybrid | The widget creates an IFrame to load some of its content. |
-
-
-## Widget Components
-
-| Component | Description |
-| ------------- | ------------- |
-| Manifest file | Mandatory for all widget types. Used to define a widget, each widget must have a manifest with all mandatory properties set.  Manifest data is used to create an inline widget or address an external widget. Contains the information about the widget that is displayed in the widget catalog, and localization. Optional settings metadata  |
-| Script file | Mandatory for inline widgets only. Should be minimized and combined into one file | 
-| HTML template(s) | Optional but only applicable for inline and inline hybrid widgets. |
+### Tenant Widgets
+A tenant widget is a widget developed by a partner or customer of Infor. Tenant widgets can be uploaded and installed in an cloud environment via the Homepages Administration Tool. 
