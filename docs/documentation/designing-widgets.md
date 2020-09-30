@@ -28,18 +28,3 @@ If custom styles have been used, then those styles must work for all three theme
 
 ### Running different themes in the Development Container
 To run the development container in the different themes the index.html file needs to be changed to include the different style sheets. Note that it is the lime stylesheet as well as xi stylesheet that needs to be changed. Uncomment the stylesheets that you would like to use for the moment and refresh.
-
-## Style sheet classes
-There are a few Homepages framework classes that can be used by widget developers. These are used when the standard Infor Design System classes are not enough.
-
-| Name | Light | Dark | High Contrast | Notes |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| lm-bg | #f0f0f0 | #313236 | #d8d8d8 | Used for layout backgrounds, such as the body background. |
-| lm-item-bg | #fff | #414247 | #f0f0f0 | Used for item backgrounds, such as widgets or cards. |
-| lm-hdr-bg | #d8d8d8 | #50535a | #bdbdbd | Used for headers, such as the catalog header. |
-| lm-brd | #bdbdbd | #656871 | #5c5c5c | Used for borders. |
-| lm-brd-accent | #d8d8d8 | #212224 | #5c5c5c | Used for borders. |
-| lm-icon | #5c5c5c | #abaeb7 | #292929 | Used for icons. |
-| lm-icon-accent | #1a1a1a | #fff | #5c5c5c | Used when hovering icons. |
-| lm-fg | #1a1a1a | #fff | #1a1a1a | The default text color. |
-| lm-white | #fff | #fff | #fff | Used where text always should be light. |

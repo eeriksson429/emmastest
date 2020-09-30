@@ -1,12 +1,10 @@
 ---
-title: Creating widgets
+title: Widget Framwork
 parent: Documentation
 nav_order: 3
 ---
 
-# Creating widgets 
-
-## Widget Types
+# Widget Framework
 
 There are three types of widgets; inline, external and inline hybrid.
 
@@ -18,13 +16,11 @@ There are three types of widgets; inline, external and inline hybrid.
 
 We recommended that you use the inline widget type when creating your widgets. 
 
-## Widget Technology Choice
+### Widget Technology Choice 
 
-For widgets with simple functionality and hybrids with for example a custom settings UI, we recommend using jQuery.
+For widgets with simple functionality and hybrids with for example a custom settings UI, we recommend using jQuery. For complex widgets Angular and TypeScript is a better fit. If Angular is the selected framework, we recommend that you use it with TypeScript.
 
-For complex widgets Angular and TypeScript is a better fit. If Angular is the selected framework, we recommend that you use it with TypeScript.
-
-## Widget Components
+### Widget Components
 
 | Component | Description |
 | ------------- | ------------- |

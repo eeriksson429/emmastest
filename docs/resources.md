@@ -1,7 +1,7 @@
 ---
 title: Resources
 has_children: false
-nav_order: 5
+nav_order: 4
 ---
 
 # Resources
@@ -9,6 +9,7 @@ nav_order: 5
 ## Getting Started
 
 ### Documentation
+* [Homepages Widget SDK](https://github.com/infor-cloud/homepages-widget-sdk/)
 * [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf)
 
 ### Dependencies
