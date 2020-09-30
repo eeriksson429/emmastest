@@ -1,5 +1,5 @@
 ---
-title: Support
+title: Support & FAQ
 has_children: false
 nav_order: 6
 ---
