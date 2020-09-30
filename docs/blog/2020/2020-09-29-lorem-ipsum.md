@@ -8,7 +8,7 @@ nav_order: 3
 # This is a blog post! 
 
 by Emma Eriksson on September 29, 2020
-{: .fs-9 .text-grey-dk-000 }
+{: .fs-3 .text-grey-dk-000 }
 
 ![Screenshot of a homepage with widgets](https://1b4r2t64qlx21nqil3x91p8i-wpengine.netdna-ssl.com/wp-content/uploads/2020/01/Bildschirmfoto-2020-01-10-um-11.41.39.png)
 
