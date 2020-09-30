@@ -86,12 +86,12 @@ h1, p {
 }
 
 // Change hover color
-.nav-list .nav-list-item .nav-list-link:hover, .nav-list .nav-list-item .nav-list-link.active {
+.nav-list .nav-list-item .nav-list-link:hover {
     background-image: none !important;
     background-color: $sidebar-nav-hover !important; 
 }
 
-.nav-list-link .active {
+.nav-list .nav-list-item .nav-list-link.active {
     background-image: none !important;
     background-color: none !important;
     border-left: 1px solid #0075e9 !important;
