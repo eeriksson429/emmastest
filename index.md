@@ -22,7 +22,11 @@ The Homepages Widget SDK is used to develop widgets for Infor Homepages. A widge
 
 ![Screenshot of a homepage with widgets](/assets/images/homepages-screenshot.png)
 
-The Framework API lets you communicate with the Widget framework, and the ION API support enables communication with other Infor applications. The SDK is aimed at web developers and includes multiple sample widgets to explore and learn from.
+The Widget SDK includes the Framework API, which lets you communicate with the Widget framework. The ION API support enables communication with other Infor applications. The SDK is aimed at web developers and includes multiple sample widgets to explore and learn from.
+
+## Getting Started 
+
+[Download the latest Widget SDK version](https://github.com/infor-cloud/homepages-widget-sdk) and head over to [Getting Started](getting-started) for instructions how to start developing widgets.
 
 ---
 

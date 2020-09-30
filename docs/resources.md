@@ -8,7 +8,14 @@ nav_order: 4
 
 ## Getting Started
 
-### Documentation
+### New to Web Development? Start here!
+* [JavaScript](https://www.javascript.com/)
+* [HTML](https://www.w3schools.com/html/)
+* [CSS](https://www.w3schools.com/css/default.asp)
+* [TypeScript](https://www.typescriptlang.org/)
+* [Angular](https://angular.io/)
+
+### Widget SDK Documentation
 * [Homepages Widget SDK](https://github.com/infor-cloud/homepages-widget-sdk/)
 * [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf)
 
@@ -26,6 +33,6 @@ nav_order: 4
 * [Widget Design Guidelines](https://design.infor.com/resources/mingle-homepage-widget-guidelines)
 
 ### ION API
-* [ADD ION API LINK HERE](https://www.example.com)
+* [How to call an ION API](https://www.youtube.com/watch?v=RJCEsnzSdIM)
 
 
