@@ -6,9 +6,9 @@ nav_order: 4
 
 # Resources
 
-## New to Web Development?
+## Web development
 
-### Web Development Tutorials
+### Tutorials
 * [JavaScript](https://www.javascript.com/)
 * [HTML](https://www.w3schools.com/html/)
 * [CSS](https://www.w3schools.com/css/default.asp)
