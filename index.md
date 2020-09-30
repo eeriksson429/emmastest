@@ -26,7 +26,7 @@ The Widget SDK includes the Framework API, which lets you communicate with the W
 
 ## Getting Started 
 
-[Download the latest Widget SDK version](https://github.com/infor-cloud/homepages-widget-sdk) and head over to [Getting Started](getting-started) for instructions how to start developing widgets.
+Head over to [Getting Started](docs/getting-started) for instructions how to start developing widgets. Or [download the latest Widget SDK version directly](https://github.com/infor-cloud/homepages-widget-sdk) and 
 
 ---
 

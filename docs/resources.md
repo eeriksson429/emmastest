@@ -6,17 +6,25 @@ nav_order: 4
 
 # Resources
 
-## Getting Started
+## New to Web Development? Start here!
 
-### New to Web Development? Start here!
+## Tutorials
 * [JavaScript](https://www.javascript.com/)
 * [HTML](https://www.w3schools.com/html/)
 * [CSS](https://www.w3schools.com/css/default.asp)
 * [TypeScript](https://www.typescriptlang.org/)
 * [Angular](https://angular.io/)
+* [jQuery](https://www.w3schools.com/jquery/)
 
-### Widget SDK Documentation
-* [Homepages Widget SDK](https://github.com/infor-cloud/homepages-widget-sdk/)
+## Editors
+* [Visual Studio Code (free)](https://code.visualstudio.com/)
+
+## Getting Started with the Homepages Widget SDK
+
+### Download the Widget SDK
+* [Homepages Widget SDK on GitHub](https://github.com/infor-cloud/homepages-widget-sdk/)
+
+### Documentation
 * [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf)
 
 ### Dependencies
