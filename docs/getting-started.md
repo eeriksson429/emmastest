@@ -8,9 +8,7 @@ nav_order: 2
 
 ## The Who and the What
 
-The Widget SDK is used to build widgets for [Infor Homepages](https://www.youtube.com/watch?v=PP7f6T442JY). 
-
-The SDK is aimed at web developers who have knowledge about:
+The Widget SDK is used to build widgets for [Infor Homepages](https://www.youtube.com/watch?v=PP7f6T442JY). The SDK is aimed at web developers who have knowledge about:
 * [JavaScript](https://www.javascript.com/)
 * [HTML](https://www.w3schools.com/html/)
 * [CSS](https://www.w3schools.com/css/default.asp)
