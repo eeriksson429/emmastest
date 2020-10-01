@@ -53,10 +53,7 @@ The Widget SDK zip file includes documentation (Developer's Guide and a Framewor
 
 To use all parts of the Homepages Widget SDK you will need [Node.js](https://nodejs.org/en/), a [TypeScript compiler](http://www.typescriptlang.org/) and an [Integrated development environment or a Text Editor](https://code.visualstudio.com/). 
 
-## Getting Started
-
-### Node.js dependencies
-{: .no_toc }
+## Install Node.js dependencies
 
 If you want to use any of the following parts of the SDK you need to install the Node.js dependencies. If you don't plan to use any of these you can just skip this step.
 
@@ -79,27 +76,25 @@ Run the Install.cmd command file in the Samples directory to install the Node.js
 ```
 Install.cmd
 ```
-### Widget sample code
-{: .no_toc }
+## Widget sample code
 
 To get an overview of the widget sample code you can open it in your development environment.
 
-#### Visual Studio Code
+### Visual Studio Code
 {: .no_toc }
 
 Start Visual Studio Code and use File > Open Folder and navigate to Samples/Widgets.
 
-### Web server
-{: .no_toc }
+## Configure Web server
 
 The SDK includes a Node.js development web server that be used for viewing sample widgets and developing widgets. The web server is optional if you have another alternative such as the web server in Visual Studio. The web server will run on http://localhost:8080 by default and serve files from the "./Widgets" directory.
 
-#### Start web server in Visual Studio Code
+### Start web server in Visual Studio Code
 {: .no_toc }
 
 Start the web server in Visual Studio Code by running the build task "Start Server" (ctrl+shift+b).
 
-#### Start web server with Windows command file
+### Start web server with Windows command file
 {: .no_toc }
 
 Use the StartServer.cmd command file to start the web server. Edit the command file to change the default port and path.
@@ -107,7 +102,7 @@ Use the StartServer.cmd command file to start the web server. Edit the command f
 StartServer.cmd
 ```
 
-#### Start web server with npm
+### Start web server with npm
 {: .no_toc }
 
 Use one of the following npm commands to start the web server. The port and path can be changed in the configuration section of the package.json file, see server_port and server_path.
@@ -118,7 +113,7 @@ npm start
 npm run server
 ```
 
-#### Start web server with node
+### Start web server with node
 {: .no_toc }
 
 Use one of the following node commands to start the web server. The port and path can be provided as parameters. If no parameters are specified the default port 8080 and the default path "./Widgets" will be used
@@ -129,12 +124,11 @@ node server
 node server 8080 "./Widgets"
 ```
 
-### View samples
-{: .no_toc }
+## View samples
 
 Once the web server is running you can view the default sample by navigating a browser to http://localhost:8080/index.html
 
-#### View samples with Windows command file
+### View samples with Windows command file
 {: .no_toc }
 
 Use the OpenSamples.cmd command file to open the default sample in the default browser on Windows.
@@ -142,17 +136,15 @@ Use the OpenSamples.cmd command file to open the default sample in the default b
 OpenSamples.cmd
 ```
 
-### Compile samples
-{: .no_toc }
+## Compile samples
 
 Compile all the TypeScript samples in Visual Studio Code by running the build task "Typescript Watch" (ctrl+shift+b). The files are watched, and will be recompiled automatically when saved. Refresh your browser to see the changes.
 
-### ION API Proxy
-{: .no_toc }
+## ION API Proxy
 
 When developing widget that use ION API you can use the included proxy. See the ION API samples in the Samples/Widgets directory for more information. You need to know the hostname and port of the ION API server to be able to configure the proxy.
 
-#### Start proxy with Windows command file
+### Start proxy with Windows command file
 {: .no_toc }
 
 Start the proxy using the StartIonApiProxy.cmd command file. Make sure to edit the command and provide correct values for the local port, remote  host and port.
@@ -160,7 +152,7 @@ Start the proxy using the StartIonApiProxy.cmd command file. Make sure to edit t
 StartIonApiProxy.cmd
 ```
 
-#### Start proxy with npm
+### Start proxy with npm
 {: .no_toc }
 
 Use the following npm command to start the proxy. The local port, remote host and remote port can be changed in the configuration section of the package.json file, see proxy_local_port, proxy_remote_host and proxy_remote_port.
@@ -168,7 +160,7 @@ Use the following npm command to start the proxy. The local port, remote host an
 npm run proxy
 ```
 
-#### Start proxy  with node
+### Start proxy  with node
 {: .no_toc }
 
 Use the following node command to start the proxy. The local port, remote host and remote port and  should be provided as parameters.
@@ -176,14 +168,13 @@ Use the following node command to start the proxy. The local port, remote host a
 node proxy 8083 "domain.server.com" 443
 ```
 
-### Homepages command script
-{: .no_toc }
+## Homepages command script
 
 The homepages command script performs different commands. For the help documentation use:
 ```
 node homepages help
 ```
-#### Package
+### Package
 {: .no_toc }
 
 Widgets have to be bundled (if consisting of multiple .ts files) and minified before delivery. The package command can be used to build, minify and package a widget or a list of widgets.
