@@ -7,7 +7,9 @@ nav_order: 3
 # Best Practices
 {: .no_toc }
 
-Here are some best practices to consider when building your widgets. For further reading, please refer to the [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf).
+Here are some best practices to consider when building your widgets. 
+
+For further reading, please refer to the [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf).
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -54,7 +56,7 @@ If custom styling or components has been used, those should also align with the 
 * [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf) (Chapter 3: Widgets > **Theme Support**)
 
 ## Translate your widgets
-We recommend that add translations to your widgets so that it supports the same languages as supported by Infor OS. For supported the current list of languages, see [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf).
+We recommend that you translate your widgets so that it supports the same languages as supported by Infor OS. For supported the current list of languages, see [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf).
 
 Add translations using the `localization` property in the widget manifest.
 
