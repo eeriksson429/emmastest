@@ -40,7 +40,7 @@ Lorem ipsum
 Lorem ipsum
 
 ## Configure a Help URL 
-Give your users some help along the way by providing a link to documentation. Use the Help URL property in the widget manifest to add a link to a Support site or documentation. The link will be displayed for end users in the About dialog. 
+Give your users some help along the way by providing a link to documentation. The link will be displayed for end users in the About dialog. 
 
 Configure the link using the `helpUrl` property in the widget manifest. 
 
