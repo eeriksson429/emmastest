@@ -72,7 +72,7 @@ npm install
 #### Install with Windows command file
 {: .no_toc }
 
-Run the Install.cmd command file in the Samples directory to install the Node.js dependencies.
+Run the `Install.cmd` command file in the Samples directory to install the Node.js dependencies.
 ```
 Install.cmd
 ```
@@ -83,21 +83,21 @@ To get an overview of the widget sample code you can open it in your development
 ### Visual Studio Code
 {: .no_toc }
 
-Start Visual Studio Code and use File > Open Folder and navigate to Samples/Widgets.
+Start Visual Studio Code and use `File > Open Folder` and navigate to Samples/Widgets.
 
 ## Configure Web server
 
-The SDK includes a Node.js development web server that be used for viewing sample widgets and developing widgets. The web server is optional if you have another alternative such as the web server in Visual Studio. The web server will run on http://localhost:8080 by default and serve files from the "./Widgets" directory.
+The SDK includes a Node.js development web server that be used for viewing sample widgets and developing widgets. The web server is optional if you have another alternative such as the web server in Visual Studio. The web server will run on `http://localhost:8080` by default and serve files from the `./Widgets` directory.
 
 ### Start web server in Visual Studio Code
 {: .no_toc }
 
-Start the web server in Visual Studio Code by running the build task "Start Server" (ctrl+shift+b).
+Start the web server in Visual Studio Code by running the build task `Start Server` (CTRL+SHIFT+B).
 
 ### Start web server with Windows command file
 {: .no_toc }
 
-Use the StartServer.cmd command file to start the web server. Edit the command file to change the default port and path.
+Use the `StartServer.cmd` command file to start the web server. Edit the command file to change the default port and path.
 ```
 StartServer.cmd
 ```
@@ -116,7 +116,7 @@ npm run server
 ### Start web server with node
 {: .no_toc }
 
-Use one of the following node commands to start the web server. The port and path can be provided as parameters. If no parameters are specified the default port 8080 and the default path "./Widgets" will be used
+Use one of the following node commands to start the web server. The port and path can be provided as parameters. If no parameters are specified the default port 8080 and the default path `./Widgets` will be used
 ```
 node server
 ```
@@ -126,19 +126,19 @@ node server 8080 "./Widgets"
 
 ## View samples
 
-Once the web server is running you can view the default sample by navigating a browser to http://localhost:8080/index.html
+Once the web server is running you can view the default sample by navigating a browser to `http://localhost:8080/index.html`.
 
 ### View samples with Windows command file
 {: .no_toc }
 
-Use the OpenSamples.cmd command file to open the default sample in the default browser on Windows.
+Use the `OpenSamples.cmd` command file to open the default sample in the default browser on Windows.
 ```
 OpenSamples.cmd
 ```
 
 ## Compile samples
 
-Compile all the TypeScript samples in Visual Studio Code by running the build task "Typescript Watch" (ctrl+shift+b). The files are watched, and will be recompiled automatically when saved. Refresh your browser to see the changes.
+Compile all the TypeScript samples in Visual Studio Code by running the build task `Typescript Watch` (CTRL+SHIFT+B). The files are watched, and will be recompiled automatically when saved. Refresh your browser to see the changes.
 
 ## ION API Proxy
 
@@ -147,7 +147,7 @@ When developing widget that use ION API you can use the included proxy. See the 
 ### Start proxy with Windows command file
 {: .no_toc }
 
-Start the proxy using the StartIonApiProxy.cmd command file. Make sure to edit the command and provide correct values for the local port, remote  host and port.
+Start the proxy using the `StartIonApiProxy.cmd` command file. Make sure to edit the command and provide correct values for the local port, remote  host and port.
 ```
 StartIonApiProxy.cmd
 ```
@@ -188,3 +188,4 @@ node homepages pack "infor.sample.helloworld"
 * [Best Practices](best-practices)
 * [Resources](resources)
 * [Support & FAQ](support-faq)
+gfh
