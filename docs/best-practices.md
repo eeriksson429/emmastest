@@ -40,6 +40,7 @@ Configure your screenshots by adding up to three PNG image files in the widget Z
 Reference the images using the `screenshots` property in the widget manifest. The value should reflect the number of screenshots. 
 
 ### Example:
+{: .no_toc }
 ```
 "screenshots": "2" 
 ```
@@ -57,6 +58,7 @@ Give your users some help along the way by providing a link to documentation. Th
 Configure the link by adding the `helpUrl` property in the widget manifest. 
 
 ### Examples:
+{: .no_toc }
 ```
 "helpUrl": "http://www.example.com/" 
 "helpUrl": "{Scheme}://{Hostname}:{Port}/{TenantId}/MyApp/Help"
