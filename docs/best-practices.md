@@ -115,9 +115,7 @@ Enable your widget for Infor Go by setting the `target` property in the widget m
 
 ### Further reading
 {: .no_toc }
-* [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf)
-
-Chapter 3: Widgets > **Mobile Widget**  
+* [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf) (Chapter 3: Widgets > **Mobile Widget**)  
 
 ## Build your widgets for the banner area
 A Banner widget is a widget that can be added to the banner container. The banner container is located at the top of the page directly below the page header, and always spans the entire first row. It holds between one and four banner widgets and has a background color based on the color of the page.
