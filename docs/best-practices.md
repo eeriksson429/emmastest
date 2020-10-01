@@ -45,11 +45,13 @@ Widgets should support the three theme variants of the IDS Subtle Theme; Light, 
 
 ![Screenshot of a homepage in Dark Theme](../assets/images/homepages_dark-theme.png)
 
-The IDS Enterprise components automatically supports these theme variants. If custom styling or components has been used, those should also align with the IDS look & feel for each theme variant.
+The IDS Enterprise components automatically supports these theme variants. 
+
+If custom styling or components has been used, those should also align with the IDS look & feel for each theme variant.
 
 ### Further reading
 {: .no_toc }
-[Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf) (Chapter 3: Widgets > **Theme Support**)
+* [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf) (Chapter 3: Widgets > **Theme Support**)
 
 ## Translate your widgets
 We recommend that add translations to your widgets so that it supports the same languages as supported by Infor OS. For supported the current list of languages, see [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf).
@@ -68,7 +70,7 @@ Add translations using the `localization` property in the widget manifest.
 ```
 ### Further reading
 {: .no_toc }
-[Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf) (Chapter 3: Widgets > Widget manifest > Optional manifest properties > **Localization**, Chapter 7: Localization)
+* [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf) (Chapter 3: Widgets > Widget manifest > Optional manifest properties > **Localization**, Chapter 7: Localization)
 
 ## Design for all widget sizes 
 A widget can be used on a page in 8 different sizes (1x1, 1x2, 1x3, 1x4, 2x1, 2x2, 2x3 and 2x4). Your widget should be runnable in all of these, meaning that all components should be visible and usable. 
@@ -96,7 +98,7 @@ Reference the images using the `screenshots` property in the widget manifest. Th
 
 ### Further reading
 {: .no_toc }
-[Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf) (Chapter 3: Widgets > Widget manifest > Optional manifest properties > **Screenshots for the widget catalog**)
+* [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf) (Chapter 3: Widgets > Widget manifest > Optional manifest properties > **Screenshots for the widget catalog**)
 
 ## Enable your widgets for Infor Go 
 Allow your users to access your widget from the Infor Go mobile application for [Android](https://play.google.com/store/apps/details?id=com.infor.go&hl=en) and [IOS](https://apps.apple.com/bs/app/infor-go/id1446388736). When running on a mobile device the widget can access native device features like GPS information and camera.
@@ -113,7 +115,7 @@ Enable your widget for Infor Go by setting the `target` property in the widget m
 
 ### Further reading
 {: .no_toc }
-[Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf)
+* [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf)
 
 Chapter 3: Widgets > **Mobile Widget**  
 
@@ -132,7 +134,7 @@ Enable your widget for the banner area by setting the `target` property in the w
 
 ### Further reading
 {: .no_toc }
-[Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf) (Chapter 3: Widgets > **Banner Widget**)
+* [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf) (Chapter 3: Widgets > **Banner Widget**)
 
 ## Configure a Help URL 
 Give your users some help along the way by providing a link to documentation for your widget. The link will be displayed for end users in the About dialog. 
@@ -148,4 +150,4 @@ Configure the link by adding the `helpUrl` property in the widget manifest.
 
 ### Further reading
 {: .no_toc }
-[Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf) (Chapter 3: Widgets > Widget manifest > Optional manifest properties > **Help URL**)
+* [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf) (Chapter 3: Widgets > Widget manifest > Optional manifest properties > **Help URL**)
