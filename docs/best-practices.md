@@ -40,4 +40,12 @@ Lorem ipsum
 Lorem ipsum
 
 ## Configure a Help URL 
-Lorem ipsum
+Give your users some help along the way when configuring your widget by providing a link to documentation. Use the Help URL property in the widget manifest to provide a link to a Support site or documentation. The link will be displayed for end users in the About dialog. 
+
+Configure the link using the `helpUrl` property in the widget manifest. 
+
+### Examples:
+```
+"helpUrl": "http://www.example.com/" 
+"helpUrl": "{Scheme}://{Hostname}:{Port}/{TenantId}/MyApp/Help"
+```
