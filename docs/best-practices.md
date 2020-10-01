@@ -45,9 +45,9 @@ Widgets should support the three theme variants of the IDS Subtle Theme; Light, 
 
 ![Screenshot of a homepage in Dark Theme](../assets/images/homepages_dark-theme.png)
 
-The IDS Enterprise components automatically supports these theme variants. 
+The IDS Enterprise components automatically supports all theme variants. 
 
-If custom styling or components has been used, those should also align with the IDS look & feel for each theme variant.
+If custom styling or components has been used, those must align with the IDS look & feel for each theme variant.
 
 ### Further reading
 {: .no_toc }
