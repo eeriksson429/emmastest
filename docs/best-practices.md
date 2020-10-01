@@ -16,16 +16,52 @@ Here are some best practices to consider when building your widgets. For further
 {:toc}
 
 ## Use ION APIs to communicate with the backend
-Lorem ipsum
+Widgets should exclusively use ION APIs to communicate with the backend, for example when retrieving data, or creating / updating / deleting data.
+
+*TODO: ADD MORE TEXT/IMAGES/EXAMPLES HERE*
+
+### Further reading
+{: .no_toc }
+[Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf) 
+
+Chapter 10: ION API
+
+[How to call an ION API](https://www.youtube.com/watch?v=RJCEsnzSdIM)
 
 ## Use IDS Enterprise component library
-Lorem ipsum
+When designing your widget, we strongly recommend using the [IDS Enterprise Components](https://github.com/infor-design/enterprise) for the UI. The IDS Enteprise Components is a framework-independent UI component library built in js and css that is pattern-focused, template-driven, touch-enabled, responsive, accessible, and themable.
+
+![Screenshot of a IDS homepage](../assets/images/ids-screenshot.png)
+
+Complex custom components should always be avoided. If custom styling or components has been used, they must follow the IDS guidelines for look & feel, theming, mobile and accessibility support.
+
+### Further reading
+{: .no_toc }
+[Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf)
+
+Chapter 2: Overview > **Enterprise Components for Infor Design System**
+
+[Infor Design System (IDS)](https://design.infor.com/)
+
+[IDS Enterprise Components](https://github.com/infor-design/enterprise)
 
 ## Theme Support
-Lorem ipsum
+Widgets should support the three theme variants of the IDS Subtle Theme; Light, Dark and High Contrast.  
 
-## Translate your widget
-Tailor your widget for end user all around the world by adding translations. We recommend you add language support to match all languages supported by Infor OS. For supported languages, see [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf).
+![Screenshot of a homepage in Dark Theme](../assets/images/homepages_dark-theme.png)
+
+The IDS Enterprise components automatically supports these theme variants. If custom styling or components has been used, those should also align with the IDS look & feel for each theme variant.
+
+### Further reading
+{: .no_toc }
+[Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf) 
+
+Chapter 3: Widgets > **Theme Support**
+
+## Translate your widgets
+We recommend that add translations to your widgets so that it supports the same languages as supported by Infor OS. For supported the current list of languages, see [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf).
+
+Add translations using the `localization` property in the widget manifest.
 
 ### Example
 {: .no_toc }
@@ -40,7 +76,9 @@ Tailor your widget for end user all around the world by adding translations. We 
 ### Further reading
 {: .no_toc }
 [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf)
+
 Chapter 3: Widgets > Widget manifest > Optional manifest properties > **Localization**
+
 Chapter 7: Localization
 
 ## Design for all widget sizes 
@@ -48,7 +86,7 @@ A widget can be used on a page in 8 different sizes (1x1, 1x2, 1x3, 1x4, 2x1, 2x
 
 ![Screenshot of a homepage with widgets](../assets/images/homepages_widget-sizes.png)
 
-Consider optimizing your widget for all widget sizes, by for example showing additional content when the widget is larger than 1x1, or decreasing margins, paddings and/or graphic elements when the widget is smaller to make your widget more efficient.
+Consider optimizing your widget for all widget sizes, by for example showing additional content when the widget is larger than 1x1, or adjusting margins, paddings and/or graphic elements when the widget is smaller to make your widget more efficient.
 
 ## Add widget screenshots
 You can add up to three PNG image files that will be shown when viewing the widget in the Widget Catalog. The screenshots helps communicate the widget's features and visual experience for your end users. 
@@ -72,7 +110,7 @@ Reference the images using the `screenshots` property in the widget manifest. Th
 [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf)
 Chapter 3: Widgets > Widget manifest > Optional manifest properties > **Screenshots for the widget catalog**
 
-## Add Infor Go support
+## Enable your widgets for Infor Go 
 Allow your users to access your widget from the Infor Go mobile application for [Android](https://play.google.com/store/apps/details?id=com.infor.go&hl=en) and [IOS](https://apps.apple.com/bs/app/infor-go/id1446388736). When running on a mobile device the widget can access native device features like GPS information and camera.
 
 ![Screenshot of widget in Infor Go](https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/3f/42/87/3f4287b1-2b12-2b3b-b36e-a3b7a99dc748/pr_source.png/460x0w.png)
@@ -88,6 +126,7 @@ Enable your widget for Infor Go by setting the `target` property in the widget m
 ### Further reading
 {: .no_toc }
 [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf)
+
 Chapter 3: Widgets > **Mobile Widget**  
 
 ## Build your widgets for the banner area
@@ -106,6 +145,7 @@ Enable your widget for the banner area by setting the `target` property in the w
 ### Further reading
 {: .no_toc }
 [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf) 
+
 Chapter 3: Widgets > **Banner Widget**
 
 ## Configure a Help URL 
@@ -123,4 +163,5 @@ Configure the link by adding the `helpUrl` property in the widget manifest.
 ### Further reading
 {: .no_toc }
 [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf)
+
 Chapter 3: Widgets > Widget manifest > Optional manifest properties > **Help URL**
