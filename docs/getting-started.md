@@ -188,4 +188,4 @@ node homepages pack "infor.sample.helloworld"
 * [Best Practices](best-practices)
 * [Resources](resources)
 * [Support & FAQ](support-faq)
-gfh
+
