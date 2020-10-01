@@ -33,7 +33,7 @@ Lorem ipsum
 ## Add widget screenshots
 You can add up to three PNG image files that will be shown when viewing the widget in the Widget Catalog. The screenshots helps communicate the widget's features and visual experience for your end users. 
 
-![Screenshot of Widget Catalog](../assets/images/widget-catalog_screenshots.png)
+![Screenshot of Widget Catalog](../assets/images/widget-catalog_screenshots-example.png)
 
 Configure your screenshots by adding up to three PNG image files in the widget ZIP. The screenshots must be named `screenshot1.png` `screenshot2.png` etc. The image will be displayed in a 200x200px container, and if the image is clicked the image is shown in its original size.
 
