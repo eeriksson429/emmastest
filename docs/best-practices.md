@@ -27,7 +27,7 @@ Lorem ipsum
 ## Translate your widget
 Lorem ipsum
 
-## Design for all sizes 
+## Design for all widget sizes 
 Lorem ipsum
 
 ## Add widget screenshots
@@ -35,31 +35,64 @@ You can add up to three PNG image files that will be shown when viewing the widg
 
 ![Screenshot of Widget Catalog](../assets/images/widget-catalog_screenshots-example.png)
 
-Configure your screenshots by adding up to three PNG image files in the widget ZIP. The screenshots must be named `screenshot1.png` `screenshot2.png` etc. The image will be displayed in a 200x200px container, and if the image is clicked the image is shown in its original size.
+Configure your screenshots by adding up to three PNG image files in the widget ZIP. 
+
+The screenshots must be named `screenshot1.png` `screenshot2.png` etc. The image will be displayed in a 200x200px container, and if the image is clicked the image is shown in its original size.
 
 Reference the images using the `screenshots` property in the widget manifest. The value should reflect the number of screenshots. 
 
-### Example:
+### Example
 {: .no_toc }
 ```
 "screenshots": "2" 
 ```
 
-## Infor Go support
-Lorem ipsum
+## Add Infor Go support
+Allow your users to access your widget from the Infor Go mobile application for [Android](https://play.google.com/store/apps/details?id=com.infor.go&hl=en) and [IOS](https://apps.apple.com/bs/app/infor-go/id1446388736). When running on a mobile device the widget can access native device features like GPS information and camera.
+
+![Screenshot of widget in Infor Go](https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/3f/42/87/3f4287b1-2b12-2b3b-b36e-a3b7a99dc748/pr_source.png/460x0w.png)
+
+Enable your widget for Infor Go by setting the `target` property in the widget manifest to `mobile`.
+
+### Example
+{: .no_toc }
+```
+"target": "mobile"
+```
+
+### Further reading
+{: .no_toc }
+[Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf) (Chapter 3: Widgets > Mobile Widget).  
 
 ## Build your widgets for the banner area
+A Banner widget is a widget that can be added to the banner container. The banner container is located at the top of the page directly below the page header, and always spans the entire first row. It holds between one and four banner widgets and has a background color based on the color of the page.
 
+![Screenshot of a homepage with widgets](/assets/images/homepages-screenshot.png)
 
+Enable your widget for the banner area by setting the `target` property in the widget manifest to `banner`.
+
+### Example
+{: .no_toc }
+```
+"target": "banner"
+```
+
+### Further reading
+{: .no_toc }
+[Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf) (Chapter 3: Widgets > Banner Widget).  
 
 ## Configure a Help URL 
 Give your users some help along the way by providing a link to documentation. The link will be displayed for end users in the About dialog. 
 
 Configure the link by adding the `helpUrl` property in the widget manifest. 
 
-### Examples:
+### Examples
 {: .no_toc }
 ```
 "helpUrl": "http://www.example.com/" 
 "helpUrl": "{Scheme}://{Hostname}:{Port}/{TenantId}/MyApp/Help"
 ```
+
+### Further reading
+{: .no_toc }
+[Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf) (Chapter 3: Widgets > Widget manifest > Optional manifest properties > Help URL).  
