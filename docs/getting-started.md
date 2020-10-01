@@ -192,4 +192,6 @@ node homepages pack "infor.sample.helloworld"
 ```
 
 ## Further reading
+{: .no_toc }
+
 For further reading, see [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf).
