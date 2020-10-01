@@ -184,7 +184,7 @@ node homepages pack "infor.sample.helloworld"
 
 ## Further reading
 
-* [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf).
+* [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf)
 * [Best Practices](best-practices)
 * [Resources](resources)
 * [Support & FAQ](support-faq)
