@@ -7,12 +7,14 @@ nav_order: 2
 # Getting Started
 {: .no_toc }
 
+This page gives a brief overview to getting started with the Homepages Widget SDK. For detailed instructions, please refer to the [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf).
+
+
 ## Table of contents
 {: .no_toc .text-delta }
 
 1. TOC
 {:toc}
-
 
 ## The Who and the What
 
