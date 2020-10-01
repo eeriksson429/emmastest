@@ -25,7 +25,7 @@ Homepages may contain one or many pages and each page may contain one or many wi
 ### Tenant Widgets
 A tenant widget is a widget developed by a partner or customer of Infor. Tenant widgets can be uploaded and installed in an cloud environment via the Homepages Administration Tool. 
 
-For instructions on how to install a Tenant Widget, please see [Support & FAQ](docs/support-faq).
+For instructions on how to install a Tenant Widget, please see [Support & FAQ](support-faq).
 
 ## Download the Widget SDK
 The latest Widget SDK deliverable can be found on the [Homepages Widget SDK GitHub page](https://github.com/infor-cloud/homepages-widget-sdk).
