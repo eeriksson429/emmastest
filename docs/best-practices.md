@@ -103,7 +103,7 @@ Reference the images using the `screenshots` property in the widget manifest. Th
 ## Enable your widgets for Infor Go 
 Allow your users to access your widget from the Infor Go mobile application for [Android](https://play.google.com/store/apps/details?id=com.infor.go&hl=en) and [IOS](https://apps.apple.com/bs/app/infor-go/id1446388736). When running on a mobile device the widget can access native device features like GPS information and camera.
 
-![Screenshot of widget in Infor Go](https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/3f/42/87/3f4287b1-2b12-2b3b-b36e-a3b7a99dc748/pr_source.png/460x0w.png)
+![Screenshot of widget in Infor Go](../assets/images/infor-go_screenshots.png)
 
 Enable your widget for Infor Go by setting the `target` property in the widget manifest to `mobile`.
 
