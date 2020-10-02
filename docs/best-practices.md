@@ -57,7 +57,7 @@ If custom styling or components has been used, those must align with the IDS loo
 * [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf) (Chapter 3: Widgets > **Theme Support**)
 
 ## Translate your widgets
-We recommend that you translate your widgets so that they supports the same languages as supported by Infor OS. For a current list of supported languages, see [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf).
+We recommend that you translate your widgets so that they support the same languages as supported by Infor OS. For a current list of supported languages, see [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf).
 
 Add translations using the `localization` property in the widget manifest.
 
