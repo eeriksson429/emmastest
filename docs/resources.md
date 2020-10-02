@@ -24,13 +24,20 @@ nav_order: 5
 ### Download the Widget SDK
 * [Homepages Widget SDK on GitHub](https://github.com/infor-cloud/homepages-widget-sdk/)
 
-### Documentation
-* [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf)
-
 ### Dependencies
 * [TypeScript](https://design.infor.com/)
 * [Angular](https://angular.io/)
 * [Node.js](http://nodejs.org/)
+
+### Documentation
+* [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf)
+* [Homepages User's Guide](https://docs.infor.com/mingle/12.0.x/en-us/minceolh/default.html?helpcontent=jho1449097143969.html)
+* [Homepages Admin Guide](https://docs.infor.com/mingle/12.0.x/en-us/minceolh/default.html?helpcontent=jho1449265710335.html)
+* [Infor OS documentation](https://docs.infor.com/inforos/12.0.x/en-us/inforoscebom/index.html)
+
+### Videos
+* [Working with Homepages](https://www.youtube.com/watch?v=PP7f6T442JY)
+* [Working with Homepages Administration](https://www.youtube.com/watch?v=gQTiLc-oBNA)
 
 ## Widget Development
 
@@ -46,5 +53,15 @@ nav_order: 5
 * [ION API Admin guide](https://docs.infor.com/ionapi/12.0.x/en-us/ionapiag/default.html)
 * [ION API Github](https://github.com/infor-cloud/ion-api-sdk/blob/master/README.md)
 
+## Infor Go
+
+### Download Infor Go
+* [Infor Go on Google Play](https://play.google.com/store/apps/details?id=com.infor.go)
+* [Infor Go on App Store](https://apps.apple.com/bs/app/infor-go/id1446388736)
+
+
+### Documentation
+* [Infor Go (Android)](https://www.inforxtreme.com/esknowbase/root/DLPublic/62076/inforgouga.pdf)
+* [Infor Go (iOS)](https://www.inforxtreme.com/esknowbase/root/DLPublic/62075/inforgougios.pdf)
 
 
