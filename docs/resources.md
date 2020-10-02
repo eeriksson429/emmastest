@@ -61,7 +61,7 @@ nav_order: 5
 
 
 ### Documentation
-* [Infor Go (Android)](https://www.inforxtreme.com/esknowbase/root/DLPublic/62076/inforgouga.pdf)
-* [Infor Go (iOS)](https://www.inforxtreme.com/esknowbase/root/DLPublic/62075/inforgougios.pdf)
+* [Infor Go User Guide (Android)](https://www.inforxtreme.com/esknowbase/root/DLPublic/62076/inforgouga.pdf)
+* [Infor Go User Guide (iOS)](https://www.inforxtreme.com/esknowbase/root/DLPublic/62075/inforgougios.pdf)
 
 
