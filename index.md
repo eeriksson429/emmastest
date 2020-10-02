@@ -35,9 +35,6 @@ Head over to [Getting Started](docs/getting-started) for instructions how to sta
 ### About Infor Homepages
 Infor Homepages is part of the cloud-based collaboration platform Infor OS. Infor Homepages provide role-based home pages with widgets containing information from multiple ERP systems in one place. Homepages are designed to give you insights, call exceptions to your attention, and provide direct links to the areas within applications where you do your daily work.
 
-### Contributing
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-
 #### Thank you to the contributors!
 
 <ul class="list-style-none">
