@@ -1,10 +1,12 @@
+
+# Basic config
 title: Homepages Widget SDK
-description: The Homepages Widget SDK is used to develop widgets for Infor Homepages.
+description: Homepages Widget SDK documentation.
 remote_theme: pmarsceill/just-the-docs
 color_scheme: light-theme
 
 # Set a path/url to a logo that will be displayed instead of the title
-logo: "/assets/images/Infor_TMLogo_RGB_1500px_72dpi_080512.jpg"
+logo: "/assets/images/logo.svg"
 
 # Aux links for the upper right navigation
 aux_links:
