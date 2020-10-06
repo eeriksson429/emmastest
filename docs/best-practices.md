@@ -18,8 +18,6 @@ Here are some best practices to consider when building your widgets. For further
 ## Use ION APIs to communicate with the backend
 Widgets should exclusively use ION APIs to communicate with the backend, for example when retrieving data, or creating / updating / deleting data.
 
-*TODO: ADD MORE TEXT/IMAGES/EXAMPLES HERE*
-
 ### Further reading
 {: .no_toc }
 * [Developer's Guide](https://github.com/infor-cloud/homepages-widget-sdk/blob/master/DevelopersGuide.pdf) (Chapter 10: ION API)
