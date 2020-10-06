@@ -15,8 +15,18 @@ Here are some best practices to consider when building your widgets. For further
 1. TOC
 {:toc}
 
-## Use ION APIs to communicate with the backend
-Widgets should exclusively use ION APIs to communicate with the backend, for example when retrieving data, or creating / updating / deleting data.
+## Develop for speed
+
+When it comes to user experience, speed matters. As a site begins to load, there's a period of time where users wait for content to appear. In the case of Homepages, the user might have 10 widgets on a normal page that has to load data and these widgets are all competing for a limited set of resources. In addition, more users are accessing through mobile devices with limited CPU power and memory as well as less bandwidth speed. 
+
+Here are some points to consider when developing your widget with performance in mind: 
+
+* Use ION APIs to communicate with the backend, for example when retrieving data, or creating / updating / deleting data
+* Make sure that the initial number of requests without user interaction are as few as possible
+* Make sure that the APIs you plan to use or develop perform in a timely manner as the browser can only have a fixed set of requests in parallel
+* Only load 10-15 items in a list with an option to load more on user activity
+* Paging should be done on the server
+* Use AoT instead of Jit
 
 ### Further reading
 {: .no_toc }
